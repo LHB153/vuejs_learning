@@ -9,8 +9,15 @@
 </head>
 
 <body>
+    <!-- 数据绑定 -->
     <div id="app">
-        <h1>{{message}}</h1>
+        <h1>your input is {{message}}</h1>
+        <input type="text" v-model = "message">
+    </div>
+
+    <!-- 组件化 -->
+    <div id = "app2">
+        <message content = "hello world"></message>
     </div>
 </body>
 <script src="Vue.js"></script>
