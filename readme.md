@@ -1,4 +1,4 @@
-####html代码
+#### html代码
 ~~~
     <div id="app-2">
         <span v-bind:title="message">
@@ -6,7 +6,7 @@
         </span>
     </div>
 ~~~
-####js的代码
+#### js的代码
 ~~~
     var app2 = new Vue({
         el: "#app-2",
@@ -15,5 +15,5 @@
         }
     })
 ~~~
-得到的结果
-![my-logo.png](https://github.com/LHB153/vuejs_learning/blob/main/img/1607000997(1).png "my-logo")
+#### 得到的结果
+![](https://github.com/LHB153/vuejs_learning/blob/main/img/1607000997(1).png)
