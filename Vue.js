@@ -1,22 +1,17 @@
 var app = new Vue({
     el: "#app",
     data:{
-        seen: true
+        message: 'hello world！！！'
+    },
+    methods: {
+        reverseMessage: function(){
+            this.message = this.message.split('').reverse().join('')
+        }
     }
 })
-var app1 = new Vue({
-    el: "#app1",
+var app2 = new Vue({
+    el: '#app2',
     data:{
-        seen: false
-    }
-})
-var app = new Vue({
-    el : "#app-2",
-    data:{
-        todos: [
-            { text: '明天要早起'},
-            { text: '明天要做月计划'},
-            { text: '等下要看一下数电'}
-        ]
+        message:'你输入什么我就显示什么！！'
     }
 })

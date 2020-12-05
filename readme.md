@@ -61,3 +61,43 @@
 ~~~
 #### 得到的结果
 ![](https://github.com/LHB153/vuejs_learning/blob/main/img/3.PNG)
+
+
+#### 处理用户输入
+> 为了让用户和应用进行交互，可以使用v-on指令添加一个事件监听器
+~~~
+    <div id = "app">
+        <p>{{message}}</p>
+        <button v-on:click="reverseMessage">反转消息</button>
+    </div>
+~~~
+~~~
+    var app = new Vue({
+    el: "#app",
+    data:{
+        message: 'hello world！！！'
+    },
+    methods: {
+        reverseMessage: function(){
+            this.message = this.message.split('').reverse().join('')
+        }
+    }
+})
+~~~
+> Vue中还有v-model指令，能够实现输入和应用状态之间的双向绑定
+~~~
+    <div id = "app2">
+        <p>{{message}}</p>
+        <input v-model="message">
+    </div>
+~~~
+~~~
+    var app2 = new Vue({
+        el: '#app2',
+        data:{
+            message:'你输入什么我就显示什么！！'
+        }
+    })
+~~~
+####显示的效果
+![](https://github.com/LHB153/vuejs_learning/blob/main/img/Rec 0002.mp4)

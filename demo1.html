@@ -10,17 +10,12 @@
 
 <body>
     <div id = "app">
-        <p v-if="seen">现在你可以看到我了</p>
+        <p>{{message}}</p>
+        <button v-on:click="reverseMessage">反转消息</button>
     </div>
-    <div id = "app1">
-        <p v-if="seen">现在你不可以看到我了</p>
-    </div>
-    <div id = "app-2">
-        <ol>
-            <li v-for="todo in todos">
-                {{ todo.text }}
-            </li>
-        </ol>
+    <div id = "app2">
+        <p>{{message}}</p>
+        <input v-model="message">
     </div>
 </body>
 <script src="Vue.js"></script>
