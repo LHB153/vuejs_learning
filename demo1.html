@@ -9,17 +9,18 @@
 </head>
 
 <body>
-    <!-- 数据绑定 -->
-    <div id="app">
-        <h1>your input is {{message}}</h1>
-        <input type="text" v-model = "message">
+    <div id = "app">
+        <p v-if="seen">现在你可以看到我了</p>
     </div>
-
-    <!-- 组件化 -->
-    <div id="app-2">
-        <span v-bind:title="message">
-            鼠标悬停几秒钟查看此处动态绑定的提示消息
-        </span>
+    <div id = "app1">
+        <p v-if="seen">现在你不可以看到我了</p>
+    </div>
+    <div id = "app-2">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
     </div>
 </body>
 <script src="Vue.js"></script>
