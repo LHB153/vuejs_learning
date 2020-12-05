@@ -99,5 +99,5 @@
         }
     })
 ~~~
-####显示的效果
-![](https://github.com/LHB153/vuejs_learning/blob/main/img/Rec 0002.mp4)
+#### 显示的效果
+![](https://github.com/LHB153/vuejs_learning/blob/main/img/Rec%200001.mp4)
