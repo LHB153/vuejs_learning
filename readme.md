@@ -60,4 +60,4 @@
     })
 ~~~
 #### 得到的结果
-![](https://github.com/LHB153/vuejs_learning/blob/main/img/3.png)
+![](https://github.com/LHB153/vuejs_learning/blob/main/img/3.PNG)
