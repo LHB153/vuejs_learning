@@ -100,4 +100,4 @@
     })
 ~~~
 #### 显示的效果
-![](https://github.com/LHB153/vuejs_learning/blob/main/img/Rec%200001.mp4)
+![](https://github.com/LHB153/vuejs_learning/blob/main/img/5.PNG)
